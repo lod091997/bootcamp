@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="FontsFree-Net-Billabong.ttf">
+    <style>
+        @font-face {
+            font-family: 'Billabong';
+            src: url('FontsFree-Net-Billabong.ttf') format('woff2'),
+                url('FontsFree-Net-Billabong.ttf') format('woff');
+        }       
+        body{
+            background: linear-gradient(to right, #E4A5FF,#9288F8,#D7BBF5)
+        }
+        #insta{
+            width: 70px;
+            height: 70px;
+        }
+        h1{
+            font-family: 'Billabong', cursive;
+            font-size: 70px;
+        }
+        header{
+            margin-top: 100px;
+        }
+        .container{
+            border: solid 2px white;
+        }
+        #login,#Signup{
+            width: 210px;
+        }
+        #fb, #google{
+            width: 30px;
+            height: 30px;
+        }
+        #fb, #twit, #yt{
+            width: 20px;
+            height: 20px;
+        }
+        footer{
+            margin: 20px auto auto auto;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+        <h1 id="ig"><img id="insta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png" alt="ig"> Instagig</h1>
+        </header>
+            <p>Log in to hear the latest local music trends, artist, or sing along with us!</p>
+            <table>
+                <form action="index.html">
+                    <input type="text" value="Email" class="btn btn-outline-light text-dark"><br>
+                    <input type="password" value="password" class="btn btn-outline-light text-dark"><br>
+                    <input id="login" type="submit" value="Log in" class="btn btn-outline-light text-dark"><br>
+            </table>
+            <br>
+            <p>Want to Sign up?</p>
+            <table>
+                <form action="index.html">
+                    <input type="text" value="Full Name" class="btn btn-outline-light text-dark"><br>
+                    <input type="text" value="Email" class="btn btn-outline-light text-dark"><br>
+                    <input type="text" value="Password" class="btn btn-outline-light text-dark"><br>
+                    <input id="Signup"  type="submit" value="Signup" class="btn btn-outline-light text-dark"><br>
+                </form>
+            </table>
+            <br>
+            <p>OR</p>
+            <br>
+            <table>
+                <form action="index.html">
+                <button type="button" class="btn btn-primary">
+                    <a target="_blank" href="https://www.facebook.com/" class="fb btn"> <img id="fb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="fb"> Login with Facebook</a>
+                </button>
+                <button type="button" class="btn btn-danger">
+                    <a target="_blank" href="https://www.google.com/" class="google btn"> <img id="google" src="https://static-00.iconduck.com/assets.00/google-logo-icon-503x512-d3y72ufg.png" alt="google"> Login with Google+</a> 
+                </button>
+                </form>
+            </table>
+    </center>
+    <br>
+    <center>
+        <footer>
+            <p class="footer">
+                &copy; 2023 Instagig. All rights reserved.
+            </p>
+            <p class="footer">
+                <img id="fb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="fb"> Facebook
+                <img id="twit" src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="twit"> Twitter
+                <img id="yt" src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" alt="yt"> Youtube
+            </p>
+        </footer>
+    </center>
+</body>
+</html>
