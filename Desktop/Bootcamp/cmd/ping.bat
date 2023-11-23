@@ -1,0 +1,5 @@
+echo pinging Google...
+ping google.com
+ping google.com > ping.txt
+echo Finished with ping test
+pause

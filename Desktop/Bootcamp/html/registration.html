@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png"
+        alt="ISCP Logo"><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY?si=9amnABbgWZ6HOF46"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <h2>Basic Information</h2>
+    <form>
+        <label for="first_name">First Name:</label>
+        <input type="text" placeholder="ex. Lord" id="first_name"><br />
+        <label for="last_name">Last name:</label>
+        <input type=" text" placeholder="ex. Abiño" id="last_name"><br>
+        <label for="Place_of_birth">Place of birth:</label>
+        <input type="text" placeholder="ex. Los Baños" id="Place_of_birth"><br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate"><br>
+        <label for="civil_status">Civil status:</label>
+        <select name="civil_status" id="civil_status">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option><br />
+        </select>
+        <br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select><br>
+        <label for="Mother's_maiden_name">Mother's maiden name:</label>
+        <input type="text" placeholder="ex. Maria Mercado" id="Mother's_maiden_name"><br>
+        <label for="father's_name">Father's name:</label>
+        <input type="text" placeholder="ex. Larry Siason" id="father's_name"><br>
+    </form>
+    <h2>Contact information</h2>
+    <form>
+        <label for="email_address">Email address:</label>
+        <input type="email" placeholder="ex.jdelacreuz@gmail.com" id="email_address"><br>
+        <label for="Mobile_Number">Contact number (mobile)</label>
+        <input type="text" placeholder="ex.0919-000-0000" id="Mobile_Number"><br>
+        <label for="telephone_Number">Contact number (telephone)</label>
+        <input type="text" placeholder="ex.02-000000" id="telephone_Number"><br>
+    </form>
+    <h2>Address</h2>
+    <form>
+        <label for="Street_Number">Street number:</label>
+        <input type="text" placeholder="ex.765 " id="Street_Number"><br>
+        <label for="Street_name">Street name:</label>
+        <input type="text" placeholder="ex.ilang ilang st. " id="Street_name"><br>
+        <label for="Barangay">Barangay:</label>
+        <input type="text" placeholder="ex. Bambang" id="Barangay"><br>
+        <label for="City_town">City/Town</label>
+        <input type="text" placeholder="ex.Los Baños city" id="City_town"><br>
+        <label for="Province">Province:</label>
+        <input type="text" placeholder="ex.Laguna" id="Province"><br>
+        <label for="Full_address">Full address:</label>
+        <input type="text" placeholder="ex. 765 brgy.Bambang Los Baños city Laguna"><br>
+
+
+    </form>
+    <h2>Government information</h2>
+    <form>
+        <label for="SSS_ID">SSS ID:</label>
+        <input type="text" placeholder="ex.22-1213122-2" id="SSS_ID"><br>
+        <label for="Pag-Ibig_ID">Pag-Ibig ID:</label>
+        <input type="text" placeholder="ex.1234-5678-9012" id="Pag-Ibig_ID"><br>
+        <label for="PhilHealth_ID">PhilHealth ID:</label>
+        <input type="text" placeholder="ex.12-345678901-2" id="PhilHealth_ID"><br>
+        <label for="2x2_picture">Upload 2x2 picture:</label>
+        <input type="file" id="2x2_picture"><br>
+        <label for="picture_gov_id">Upload picture of government ID:</label>
+        <input type="file" id="picture_gov_id"><br>
+    </form>
+    <h2>Account information </h2>
+    <form>
+        <label for="Username">Username:</label>
+        <input type="text" placeholder="ex.Lod123" id="Username"><br>
+        <label for="Password">Password:</label>
+        <input type="password" placeholder="at least 6 characters" id="Password"><br>
+        <label for="Confirm_Password">Confirm Password:</label>
+        <input type="password" placeholder="re-enter password" id="Confirm_Password"><br>
+        <label for="profile_image">Upload profile image:</label>
+        <input type="file" id="profile_image"><br>
+    </form>
+    <h2>Have you experienced any of the following in the last 30 days?</h2>
+    <form>
+        <select>
+            <option value="Coughing">Coughing</option>
+            <option value="Fever">Fever</option>
+            <option value="Headache">Headache</option>
+            <option value="Common cold">Common cold</option>
+            <option value="Body ache">Body ache</option>
+            <option value="Sore throat"> Sore throat</option>
+            <option value="Tiredness">Tiredness</option>
+            <option value="Loss of smell">Loss of smell</option>
+        </select>
+        <br>
+    </form>
+    <h2>Give a short description about yourself.</h2>
+    <form>
+        <label for="description">
+            Give a short description about yourself. </label></br>
+        <textarea placeholder="Enter 3-5 sentences" rows="5" cols="40"></textarea><br />
+        <input type="submit" value="submit">
+    </form>
+    <p>All rights reserved @ lord Henry Abiño</p>
+</body>
+
+</html>

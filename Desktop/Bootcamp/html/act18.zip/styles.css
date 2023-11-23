@@ -1,0 +1,171 @@
+body {
+    font-family: Tahoma;
+    margin: 0px;
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#choir-section {
+    width: 150px;
+    height: 150px;
+    border: 4px solid red;
+    background-color: yellow;
+}
+
+#choir-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(50%);
+}
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li {
+    flex: 1;
+    background-color: rgb(70, 130,180);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+#navbar ul li:hover {
+    color: rgb(0, 0, 100);
+}
+
+.heading-banner {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(70, 130, 180);
+}
+
+.second-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#pastor-image {
+    width: 350px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 200%;
+    color: rgb(70, 130, 180);
+}
+
+#second-text {
+    font-size: 130%
+}
+
+#third-text {
+    font-size: 200%
+}
+
+#first-link:link {
+    color: blue;
+}
+
+
+#first-link:visited {
+    color: orange;
+}
+
+
+#first-link:hover {
+    color: magenta;
+}
+
+
+#first-link:active {
+    color: lime;
+}
+
+.ministries-table {
+    border: 1px dotted black;
+    width: 100%; 
+}
+.list{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end
+}
+.cross{
+    width: 120px;
+
+}
+
+.ministries-table tr:nth-child(even) {
+    background-color: rgb(189, 189, 189);
+}
+.ministries-table tr:nth-child(odd) {
+    background-color: white;
+}
+.ul-list{
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+.ministries-table td:hover {
+    background-color: rgb(246, 168, 23); 
+}
+
+.ministries-table th {
+    text-align: center;
+}
+
+
+.ministries-table td {
+    text-align: left;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gallery div {
+    flex: 1;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75%;
+    color: rgb(160, 160, 160);
+}
+
+.footer a {
+    color: rgb(160, 160, 160);
+}
